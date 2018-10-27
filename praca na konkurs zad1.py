@@ -35,7 +35,7 @@ def atleci(ile):
         fd(15);lt(90)
         fd(80);lt(90);fd(15);bk(30);fd(15);rt(90);bk(5);rt(90);fd(10);bk(10);fd(10);bk(20);fd(10);rt(90);fd(5);lt(90);fd(5);bk(10)
         fd(5);rt(90);fd(10);rt(90);fd(20);lt(90);pu();fd(90);pd()
-#main
+# main
 liczba = int(input("Ile Ma byc Atletow: "))
 atleci(liczba)
 
