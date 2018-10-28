@@ -23,12 +23,16 @@ def pionowy():
 #pionowy()
 ile=3
 for a in range (ile):
-  print (a)
-  koslawiec()
-  pu();fd(35);rt(90);fd(21);lt(90);bk(7);pd()
-  if a!=ile-1:
-   poziomy()
-   pu();lt(90);fd(14);lt(90);fd(21);pd()
-  
+   print (a)
+   koslawiec()
+   pu();fd(35);rt(90);fd(21);lt(90);bk(7);pd()
+   if a!=0:
+     pu();fd(21);lt(90);fd(7);pd()
+     pionowy()
+   if a!=ile-1:
+    poziomy()
+    pu();lt(90);fd(14);lt(90);fd(21);pd()
+   
+
   
   
