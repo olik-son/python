@@ -21,18 +21,25 @@ def pionowy():
 #main
 #poziomy()
 #pionowy()
-ile=3
-for a in range (ile):
-   print (a)
-   koslawiec()
-   pu();fd(35);rt(90);fd(21);lt(90);bk(7);pd()
-   if a!=0:
-     pu();fd(21);lt(90);fd(7);pd()
-     pionowy()
-   if a!=ile-1:
-    poziomy()
-    pu();lt(90);fd(14);lt(90);fd(21);pd()
-   
-
+def piramida(ile):
+  ilepion=ile
+  for b in range (ilepion):
+    for a in range (ile):
+     print (a,b)
+     koslawiec()
+     pu();fd(35);rt(90);fd(21);lt(90);bk(7);pd()
+     if a!=0:
+       pu();lt(90);fd(14);lt(90);fd(7);rt(90);pd()
+       pionowy()
+       pu();fd(7);rt(90);fd(14);lt(90);pd()
+     if a!=ile-1:
+      poziomy()
+      pu();lt(90);fd(14);lt(90);fd(21);pd()
+    pu();lt(90);fd(9*7);rt(90);bk(6*7*(ile-1)-14);pd()
+    ile=ile-1
+# main
+liczba = int(input("Wysokosc piramidy: "))
+piramida(liczba)
+#input("Takie Czekanie...")
   
   
