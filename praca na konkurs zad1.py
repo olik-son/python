@@ -1,6 +1,6 @@
 from turtle import*
 def atleci(ile):
-  pu();bk(300);pd()
+  pu();bk(45*ile);rt(90);fd(3);lt(90);pd()
   for i in range(ile):
     fillcolor("yellow")
     fd(40); bk(15)
