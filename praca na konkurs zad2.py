@@ -7,6 +7,8 @@ def kolejna(liczbapoczatkowa,kolejnaliczba):
     wynikstr=str(wynik)
     if (wynikstr.find('3') != 0):
       kolejna = kolejna + 1
+    if kolejnaliczba==1:
+        kolejnaliczba=0
     if kolejna == kolejnaliczba+1:
         koniec = 2
     licznik += 1
