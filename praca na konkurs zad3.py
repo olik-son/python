@@ -1,7 +1,7 @@
 from turtle import*
 def koslawiec():
   seth(0)
-  fillcolor("orange")
+  fillcolor("red")
   begin_fill()
   for i in range(4):
     fd(14);rt(90);fd(7);lt(90);fd(7);lt(90);fd(7);rt(90);fd(14);rt(90)
@@ -23,6 +23,7 @@ def pionowy():
 #pionowy()
 def piramida(ile):
   ilepion=ile
+  pu();bk(21*ile);rt(90);fd(15*ile);lt(90);pd()
   for b in range (ilepion):
     for a in range (ile):
      print (a,b)
