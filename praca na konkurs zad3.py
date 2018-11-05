@@ -39,8 +39,8 @@ def piramida(ile):
     pu();lt(90);fd(9*7);rt(90);bk(6*7*(ile-1)-14);pd()
     ile=ile-1
 # main
-liczba = int(input("Wysokosc piramidy: "))
-piramida(liczba)
+#liczba = int(input("Wysokosc piramidy: "))
+#piramida(liczba)
 #input("Takie Czekanie...")
   
   

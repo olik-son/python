@@ -18,9 +18,9 @@ def kolejna(liczbapoczatkowa,kolejnaliczba):
     print ("kolejna: ",kolejna)
  return wynik
 #main
-a = int(input("Liczba poczatkowa: "))
-b = int(input("Liczba kolejna bez 3: "))
-mojwynik=kolejna(a,b)
-print("----------------------------------------------------")
-print("moj wynik: ",mojwynik)
-print("----------------------------------------------------")
+#a = int(input("Liczba poczatkowa: "))
+#b = int(input("Liczba kolejna bez 3: "))
+#mojwynik=kolejna(a,b)
+#print("----------------------------------------------------")
+#print("moj wynik: ",mojwynik)
+#print("----------------------------------------------------")
